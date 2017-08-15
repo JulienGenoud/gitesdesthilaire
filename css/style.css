@@ -1447,7 +1447,9 @@ a.btn-mod:focus{
 
 .nav-logo-wrap{
 	float: left;
-	margin-right: 20px;
+  /*display: block;
+  margin-left: auto;
+  margin-right: auto;*/
 }
 .nav-logo-wrap .logo{
 	display: table-cell;
@@ -1516,7 +1518,7 @@ a.logo:hover{
 .inner-nav{
 	display: inline-block;
 	position: relative;
-	/*float: right;*/
+	float: right;
 }
 .inner-nav ul{
 	/*float: right;*/
