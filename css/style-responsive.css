@@ -70,7 +70,8 @@ Primary use:    MultiPurpose Template
     }
     
     .work-grid-5 .work-item{
-        width: 25%;
+        width: 100%;
+        text-align: right;
     }
     
     .mod-breadcrumbs-mini{
@@ -410,6 +411,10 @@ Primary use:    MultiPurpose Template
     } 
     .alt-features-item {
         margin-top: 30px;
+    }
+
+    .alt-features-item img {
+        max-width: 30%;
     }
 
 	.benefit-item{
