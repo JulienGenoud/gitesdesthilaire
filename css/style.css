@@ -2413,6 +2413,12 @@ a.logo:hover{
 .bg-gray-lighter{
 	background-color: #f8f8f8;
 }
+
+.bg-tarif{
+  background-color: #fee0cc;
+}
+
+
 .bg-dark,
 .bg-dark-lighter,
 .bg-dark-alfa-30,
