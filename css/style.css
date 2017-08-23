@@ -3098,7 +3098,39 @@ a.logo:hover{
 .features-descr.black{
 	color: rgba(0,0,0, .75);
 }
+/* Animation */
 
+.moving {
+    -webkit-animation: sway 3s ease-in-out infinite alternate;
+    -moz-animation: sway 3s ease-in-out infinite alternate;
+    -o-animation: sway 3s ease-in-out infinite alternate;
+    animation: sway 3s ease-in-out infinite alternate;
+}
+  
+@-moz-keyframes sway {
+      0% { -moz-transform: rotate(-15deg); }
+    100% { -moz-transform: rotate(15deg); }
+}
+  
+@-webkit-keyframes sway {
+      0% { -webkit-transform: rotate(-15deg); }
+    100% { -webkit-transform: rotate(15deg); }
+}
+  
+@-o-keyframes sway {
+      0% { -o-transform: rotate(-15deg); }
+    100% { -o-transform: rotate(15deg); }
+}
+  
+@-ms-keyframes sway {
+      0% { -ms-transform: rotate(-15deg); }
+    100% { -ms-transform: rotate(15deg); }
+}
+  
+@keyframes sway {
+      0% { transform: rotate(-15deg); }
+    100% { transform: rotate(15deg); }
+}
 
 
 /* ==============================
@@ -4896,6 +4928,7 @@ table.shopping-cart-table tr td{
 .owl-prev:hover:before,
 .owl-next:hover:before{
     opacity: 0.87;
+    background: #000;
 }
 .owl-prev:active:before,
 .owl-next:active:before{	
