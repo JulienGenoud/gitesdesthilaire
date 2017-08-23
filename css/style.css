@@ -3106,7 +3106,7 @@ a.logo:hover{
     -o-animation: sway 3s ease-in-out infinite alternate;
     animation: sway 3s ease-in-out infinite alternate;
 }
-  
+
 @-moz-keyframes sway {
       0% { -moz-transform: rotate(-15deg); }
     100% { -moz-transform: rotate(15deg); }
@@ -3131,6 +3131,7 @@ a.logo:hover{
       0% { transform: rotate(-15deg); }
     100% { transform: rotate(15deg); }
 }
+
 
 
 /* ==============================
@@ -4896,7 +4897,7 @@ table.shopping-cart-table tr td{
     -webkit-box-shadow: 1px 1px 0px rgba(0, 0, 0, .1);
     -moz-box-shadow: 1px 1px 0px rgba(0, 0, 0, .1);
     box-shadow: 1px 1px 0px rgba(0, 0, 0, .1);
-    
+ /*   
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -o-transform: rotate(45deg);
@@ -4907,7 +4908,7 @@ table.shopping-cart-table tr td{
     -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
-    transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); */
 }
 .owl-next:before{
     left: auto;
@@ -4926,10 +4927,59 @@ table.shopping-cart-table tr td{
     transition:0 none !important;  
 }
 .owl-prev:hover:before,
-.owl-next:hover:before{
+.owl-next:hover:before {
     opacity: 0.87;
-    background: #000;
 }
+
+/* ACTIVITES */
+
+.activite .owl-prev,
+.activite .owl-next{
+  opacity: 0,2;
+  top: 35%;
+  width: 100px; 
+}
+
+div .owl-carousel, .activite{
+  margin: 0px !important;
+}
+
+.activite .owl-prev:before, .owl-next:before{
+  background: yellow;
+}
+
+.activite .owl-prev:hover:before,
+.owl-next:hover:before {
+  background: blue;
+}
+
+.activite .owl-pagination{
+  display: none !important;
+}
+
+
+ /*
+}
+.activite .owl-page span{
+  width: 0px;
+  height: 0px;
+  display: block;
+}
+
+.activite .owl-page.active span{    
+  background: transparent;
+    bordeR: 0px solid rgba(255,255,255, .8);
+    
+    -webkit-transform: scale(1.3333333);
+    -moz-transform: scale(1.3333333);
+    -o-transform: scale(1.3333333);
+    -ms-transform: scale(1.3333333);
+    transform: scale(1.3333333);
+}
+
+/* end ACTIVITES */
+
+
 .owl-prev:active:before,
 .owl-next:active:before{	
 	opacity: 0.6;
@@ -4949,6 +4999,8 @@ table.shopping-cart-table tr td{
 	bottom: 30px;
 	left: 0;
 	text-align: center;
+  border-radius: 0px;
+  box-shadow: 0px;
 }
 .owl-page{
 	display: inline-block;
