@@ -29,11 +29,11 @@
 	overflow: hidden;
 	position: relative;
 	width: 100%;
-    z-index: 5;
+    z-index: 1;
 }
 
-.activite .owl-wrapper-outer .autoHeight{
-  height: 500px !important ;
+.owl-wrapper-outer .autoHeight{
+  height: 320px !important;
 }
 
 /*

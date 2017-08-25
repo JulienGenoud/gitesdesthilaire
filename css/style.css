@@ -4957,6 +4957,9 @@ div .owl-carousel, .activite{
   display: none !important;
 }
 
+.owl-wrapper-outer .autoHeight{
+  height: 320px !important;
+}
 
  /*
 }
