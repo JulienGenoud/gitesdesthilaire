@@ -1557,9 +1557,12 @@ a.logo:hover{
 .inner-nav ul li a:hover,
 .inner-nav ul li a.active{
 	color: #000;
-	text-decoration: none;
+  font-style: bold;
 }
 
+.en-cours {
+ color: #000 !important;
+}
 
 
 /* Menu sub */
@@ -3802,9 +3805,10 @@ a.logo:hover{
 .post-grid{
     
 }
+
 .post-prev-img{
     margin-bottom: 23px;
-    position: relative;
+
 }
 .post-prev-img a{
     -webkit-transition: all 0.2s cubic-bezier(0.300, 0.100, 0.580, 1.000);  
@@ -3813,8 +3817,9 @@ a.logo:hover{
     -ms-transition: all 0.2s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
     transition: all 0.2s cubic-bezier(0.300, 0.100, 0.580, 1.000);
 }
+
 .post-prev-img a:hover{
-    opacity: .85;
+    opacity: .80;
 }
 .post-prev-img img{
     width: 100%;
@@ -4882,17 +4887,17 @@ table.shopping-cart-table tr td{
 .owl-next:before{
     content: "";
     display: block;
-    width: 66%;
-    height: 66%;
+    width: 70%;
+    height: 70%;
     position: absolute;
     top: 17px;
     left: 0;
     
     background: #fff;
     
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    border-radius: 2px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
     
     -webkit-box-shadow: 1px 1px 0px rgba(0, 0, 0, .1);
     -moz-box-shadow: 1px 1px 0px rgba(0, 0, 0, .1);
@@ -4957,9 +4962,6 @@ div .owl-carousel, .activite{
   display: none !important;
 }
 
-.owl-wrapper-outer .autoHeight{
-  height: 320px !important;
-}
 
  /*
 }
