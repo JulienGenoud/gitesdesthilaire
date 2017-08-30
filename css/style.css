@@ -3808,7 +3808,7 @@ a.logo:hover{
 
 .post-prev-img{
     margin-bottom: 23px;
-
+    position: relative;
 }
 .post-prev-img a{
     -webkit-transition: all 0.2s cubic-bezier(0.300, 0.100, 0.580, 1.000);  
@@ -4831,10 +4831,21 @@ table.shopping-cart-table tr td{
 }
 .pr-per{
     color: #999;
-    font-size: 12px;
+    font-size: 9px;
 }
 
-
+.price1{
+    color: #9ab1b0;
+    padding: 20px;
+}
+.price2{
+    color: #f0cfa5;
+    padding: 20px;
+}
+.price3{
+    color: #db9082;
+    padding: 20px;
+}
 
 /* ==============================
    Shortcodes

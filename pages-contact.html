@@ -57,7 +57,7 @@
                             <li><a href="pages-lespa.html">Le SPA</a></li>
                             <li><a href="pages-lesactivites.html">Les Activités</a></li>
                             <li><a href="pages-lestarifs.html">Les Tarifs</a></li>
-                            <li><a href="pages-contact.html">Contact</a></li>
+                            <li><a href="pages-contact.html" class="en-cours">Contact</a></li>
                             
                         </ul>
                     </div>
@@ -70,19 +70,19 @@
             
             
             <!-- Head Section -->
-            <section class="page-section bg-dark-alfa-30" data-background="images/full-width-images/section-bg-26.jpg">
+            <section class="small-section bg-dark-alfa-0" data-background="images/full-width-images/section-bg-3.jpg">
                 <div class="relative container align-left">
                     
                     <div class="row">
                         
                         <div class="col-md-8">
-                            <h1 class="hs-line-11 no-transp font-alt mb-20 mb-xs-0">LES PRESTATIONS</h1>
+                            <h1 class="hs-line-11 no-transp font-alt mb-20 mb-xs-0">Contact</h1>
                         </div>
                         
                         <div class="col-md-4 mt-30">
                             
                             <div class="mod-breadcrumbs font-alt align-right">
-                                <a href="index.html">Home</a>&nbsp;/&nbsp;<a>LES PRESTATIONS</a>
+                                <a href="index.html">Home</a>&nbsp;/&nbsp;<a>Contact</a>
                             </div>
                             
                         </div>
@@ -93,68 +93,147 @@
             <!-- End Head Section -->
             
             
-            <!-- Section -->
-            <section class="page-section">
-                <div class="container relative">
-                    
-                
-                     
-
-
-
-                </div>
-            </section>
-            <!-- End Section -->
-        
-
-            <!-- LES PRESTATIONS -->
-            <section class="page-section">
+            <!-- Contact Section -->
+            <section class="page-section" id="contact">
                 <div class="container relative">
                     
                     <h2 class="section-title font-alt mb-70 mb-sm-40">
-                        LES PRESTATIONS
+                        Une réservation, une question ? Contactez-nous
                     </h2>
                     
-                     <!-- Les prestations-->
-                    <ul class="works-grid work-grid-2 work-grid-gut font-alt hover-white" id="work-grid">
+                    <div class="row mb-60 mb-xs-40">
                         
-                        <!-- Espace SPA-->
-                        <li class="work-item">
-                            <a href="portfolio-single-1.html" class="work-ext-link">
-                                <div class="work-img">
-                                    <img class="work-img" src="images/services/spa-1.jpg" alt="Work" />
-                                </div>
-                                <div class="work-intro">
-                                    <h3 class="work-title">Espace SPA</h3>
-                                    <div class="work-descr">
-                                        1 séance découverte offerte pour tout séjour réservé
+                        <div class="col-md-8 col-md-offset-2">
+                            <div class="row">
+                                
+                                <!-- Phone -->
+                                <div class="col-sm-6 col-lg-4 pt-20 pb-20 pb-xs-0">
+                                    <div class="contact-item">
+                                        <div class="ci-icon">
+                                            <i class="fa fa-phone"></i>
+                                        </div>
+                                        <div class="ci-title font-alt">
+                                            Par téléphone
+                                        </div>
+                                        <div class="ci-text">
+                                            07 68 23 32 24
+                                        </div>
                                     </div>
                                 </div>
-                            </a>
-                        </li>
-                        <!-- End Espace SPA --><!-- Petit Dej -->
-                        <li class="work-item">
-                            <a href="portfolio-single-1.html" class="work-ext-link">
-                                <div class="work-img">
-                                    <img class="work-img" src="images/services/dej-1.jpg" alt="Work" />
-                                </div>
-                                <div class="work-intro">
-                                    <h3 class="work-title">Petit déjeuner</h3>
-                                    <div class="work-descr">
-                                        Sur demande pendant votre séjour
+                                <!-- End Phone -->
+                                
+                                <!-- Address -->
+                                <div class="col-sm-6 col-lg-4 pt-20 pb-20 pb-xs-0">
+                                    <div class="contact-item">
+                                        <div class="ci-icon">
+                                            <i class="fa fa-map-marker"></i>
+                                        </div>
+                                        <div class="ci-title font-alt">
+                                            Adresse
+                                        </div>
+                                        <div class="ci-text">
+                                            Lieu dit St HILAIRE, 17780 SOUBISE
+                                        </div>
                                     </div>
                                 </div>
-                            </a>
-                        </li>
-                        <!-- End Petit Dej -->
-                    </ul>
-                    <!-- End Les prestations-->
+                                <!-- End Address -->
+                                
+                                <!-- Email -->
+                                <div class="col-sm-6 col-lg-4 pt-20 pb-20 pb-xs-0">
+                                    <div class="contact-item">
+                                        <div class="ci-icon">
+                                            <i class="fa fa-envelope"></i>
+                                        </div>
+                                        <div class="ci-title font-alt">
+                                            Email
+                                        </div>
+                                        <div class="ci-text">
+                                            <a href="mailto:contact@gitesdesthilaire.com">contact@gitesdesthilaire.com</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Email -->
+                                
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                    <!-- Contact Form -->                            
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                            
+                            <form class="form contact-form" id="contact_form">
+                                <div class="clearfix">
+                                    
+                                    <div class="cf-left-col">
+                                        
+                                        <!-- Name -->
+                                        <div class="form-group">
+                                            <input type="text" name="name" id="name" class="input-md round form-control" placeholder="Nom" pattern=".{3,100}" required>
+                                        </div>
+                                        
+                                        <!-- Email -->
+                                        <div class="form-group">
+                                            <input type="email" name="email" id="email" class="input-md round form-control" placeholder="Email" pattern=".{5,100}" required>
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                    <div class="cf-right-col">
+                                        
+                                        <!-- Message -->
+                                        <div class="form-group">                                            
+                                            <textarea name="message" id="message" class="input-md round form-control" style="height: 84px;" placeholder="Message"></textarea>
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                </div>
+                                
+                                <div class="clearfix">
+                                    
+                                    <div class="cf-left-col">
+                                        
+                                        <!-- Inform Tip -->                                        
+                                        <div class="form-tip pt-20">
+                                            <i class="fa fa-info-circle"></i> Tous les champs sont requis
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                    <div class="cf-right-col">
+                                        
+                                        <!-- Send Button -->
+                                        <div class="align-right pt-10">
+                                            <button class="submit_btn btn btn-mod btn-medium btn-round" id="submit_btn">Envoyer</button>
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                </div>
+                                
+                                
+                                
+                                <div id="result"></div>
+                            </form>
+                            
+                        </div>
+                    </div>
+                    <!-- End Contact Form -->
                     
                 </div>
             </section>
-            <!-- End LES PRESTATIONS -->
+            <!-- End Contact Section -->
             
             
+            <!-- Google Map -->
+            <div class="google-map">
+                
+                <div data-address="Lieu dit St Hilaire, 17780 SOUBISE" id="map-canvas"></div>
+
+            </div>
+            <!-- End Google Map -->
             
             
             <!-- Footer -->
