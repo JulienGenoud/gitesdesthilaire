@@ -252,7 +252,6 @@ img:not([draggable]), embed, object, video{
   top: 50%;
   left: 50%;
   margin: -50px 0 0 -50px;
-  font-size: 10px;
 
  z-index: 100001;
  }
@@ -3722,6 +3721,10 @@ a.logo:hover{
    Banner section
    ============================== */
 
+.banner-content{
+  color: rgba(0,0,0, 0.9);
+}  
+
 .banner-section{
     overflow: visible;
     border-bottom: 1px solid transparent;
@@ -3733,14 +3736,12 @@ a.logo:hover{
 	font-weight: 300;
     letter-spacing: 0.3em;
 	text-transform: uppercase;
-	color: rgba(255,255,255, 0.9);
 }
 
-.banner-decription{
+.banner-description{
     margin-bottom: 35px;
 	font-size: 15px;	
     font-weight: 300;
-	color: rgba(255,255,255, .7);
 }
 
 .banner-image{
@@ -3771,9 +3772,6 @@ a.logo:hover{
 }
 .testimonial p{
     font-size: 18px;
-}
-.testimonial-author{
-
 }
 
 /*
@@ -4959,8 +4957,7 @@ table.shopping-cart-table tr td{
 
 /* ACTIVITES */
 
-.activite .owl-prev,
-.activite .owl-next{
+.activite .owl-prev, .activite .owl-next{
   opacity: 0,2;
   top: 35%;
   width: 100px; 
@@ -4971,11 +4968,10 @@ div .owl-carousel, .activite{
 }
 
 .activite .owl-prev:before, .owl-next:before{
-  background: yellow;
+  background: white;
 }
 
-.activite .owl-prev:hover:before,
-.owl-next:hover:before {
+.activite .owl-prev:hover:before, .owl-next:hover:before {
   background: blue;
 }
 
