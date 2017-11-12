@@ -4040,26 +4040,7 @@ a.logo:hover{
 .gm-style-iw div{
 	color: #777;
 }
-.map-section{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    padding: 0 !important;
-    background: rgba(17,17,17, .93);
-    z-index: 2;
-    cursor: pointer;
-    
-    -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
-    -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
-    transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-}
-.map-section:hover{
-    background: rgba(17,17,17, .90);
-}
+
 .map-toggle{
     width: 200px;
     height: 80px;
