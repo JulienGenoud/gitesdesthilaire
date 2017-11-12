@@ -449,9 +449,9 @@ hr.black{
 	letter-spacing: 1px;
 }
 .font-alt{
-    font-family: Dosis, arial, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 0.2em;
+    font-family: Oswald, sans-serif;
+    /*text-transform: uppercase;*/
+    /*letter-spacing: 0.2em;*/
 }
 .serif{
 	font-family: "Times New Roman", Times, serif;
