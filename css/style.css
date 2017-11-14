@@ -3725,6 +3725,10 @@ a.logo:hover{
   color: rgba(0,0,0, 0.9);
 }  
 
+.banner-content-light{
+  color: rgba(255,255,255, 0.9);
+}  
+
 .banner-section{
     overflow: visible;
     border-bottom: 1px solid transparent;
@@ -4764,8 +4768,8 @@ table.shopping-cart-table tr td{
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
     
-	padding: 30px 20px;
-	text-align: center;
+	/*padding: 30px 20px;*/
+  text-align: center;
 	overflow: hidden;
 }
 
