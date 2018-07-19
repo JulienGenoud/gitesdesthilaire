@@ -4746,6 +4746,7 @@ table.shopping-cart-table tr td{
 .pricing-item-inner{
 	border: 1px solid #eaeaea;
 	vertical-align: middle;
+  margin-bottom: 0px;
 	
 	-webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
@@ -4764,11 +4765,11 @@ table.shopping-cart-table tr td{
 .pricing-wrap{
 	position: relative;
     
-    -webkit-box-sizing: border-box;
+   /* -webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
     
-	/*padding: 30px 20px;*/
+	padding: 30px 20px;*/
   text-align: center;
 	overflow: hidden;
 }
@@ -4782,7 +4783,7 @@ table.shopping-cart-table tr td{
 }
 .pricing-title{
 	position: relative;
-	margin-bottom: 40px;
+	margin-bottom: 0px;
 	font-size: 15px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -4790,7 +4791,7 @@ table.shopping-cart-table tr td{
 	z-index: 1;
 }
 .pr-list{
-    margin: 0 -20px 30px;
+  
     padding: 0;
 	
     color: #777;
@@ -4822,6 +4823,7 @@ table.shopping-cart-table tr td{
 	left: -3px;
 	margin-left: -7px;
 }
+/*
 .pr-button{
     margin: 30px -20px 0;
     padding-top: 30px;
@@ -4830,7 +4832,7 @@ table.shopping-cart-table tr td{
 .pr-per{
     color: #999;
     font-size: 9px;
-}
+} */
 
 .price1{
     color: #9ab1b0;
