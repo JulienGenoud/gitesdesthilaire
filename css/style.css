@@ -12,6 +12,7 @@ Primary use:    MultiPurpose Template
 @import "et-line.css";
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,300,700);
 @import url(http://fonts.googleapis.com/css?family=Dosis:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,700);
 
 /*------------------------------------------------------------------
 [Table of contents]
@@ -449,9 +450,9 @@ hr.black{
 	letter-spacing: 1px;
 }
 .font-alt{
-    font-family: Oswald, sans-serif;
-    /*text-transform: uppercase;*/
-    /*letter-spacing: 0.2em;*/
+    font-family: 'Oswald', arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
 }
 .serif{
 	font-family: "Times New Roman", Times, serif;
@@ -692,15 +693,15 @@ a.btn-mod:focus{
 }
 
 .btn-mod.btn-border-c{
-  	color: #e41919;
-	border: 2px solid #e41919;
+  	color: #e75c4b;
+	border: 2px solid #e75c4b;
   	background: transparent;
 }
 .btn-mod.btn-border-c:hover,
 .btn-mod.btn-border-c:focus{
   	color: #fff;
 	border-color: transparent;
-  	background: #e41919;
+  	background: #e75c4b;
 }
 
 .btn-mod.btn-border-w{
@@ -1262,7 +1263,7 @@ a.btn-mod:focus{
     position: relative;
 	font-size: 16px;
 	font-weight: 400;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.2em;
     line-height: 1.2;
     opacity: .75;
 }
@@ -1309,7 +1310,7 @@ a.btn-mod:focus{
 	font-size: 30px;
     font-weight: 400;
 	text-transform: uppercase;
-	letter-spacing: 0.5em;
+	letter-spacing: 0.2em;
     line-height: 1.8;
     opacity: .9;
 }
@@ -1578,12 +1579,12 @@ a.logo:hover{
 
 .mn-sub{
 	display: none;
-	width: 200px;
+	width: 90px;
 	position: absolute;
 	top: 100%;
 	left: 0;
 	padding: 0;
-	background: rgba(30,30,30, .97);
+	background: rgba(240,240,240, .1);
 }
 .mn-sub li{
 	display: block;
@@ -1599,14 +1600,14 @@ a.logo:hover{
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	margin: 0;
-	padding: 11px 15px;
+	padding: 15px 15px;
     font-size: 13px;
 	text-align: left;
     text-transform: none;    
 	border-left: none;
 	border-right: none;
-    letter-spacing: 0;
-	color: #b0b0b0 !important;
+    letter-spacing: 10;
+	color: #7c7c7c !important;
 	cursor: pointer;
 }
 
@@ -1617,9 +1618,15 @@ a.logo:hover{
 .mn-sub li a:hover,
 .inner-nav ul li .mn-sub li a:hover,
 .mn-sub li a.active{
-	background: rgba(255,255,255, .09);
-	color: #f5f5f5 !important;
+	color: black !important;
 }
+
+.tilleul{
+  background: rgba(154,190,178, .8);
+}
+
+
+
 
 .mn-sub li ul{
     left: 100%;
@@ -2426,8 +2433,11 @@ a.logo:hover{
 	background-color: #f8f8f8;
 }
 
-.bg-tarif{
+.bg-tarif-jasmin{
   background-color: #fee0cc;
+}
+.bg-tarif-tilleul{
+  background-color: #a7bfb8;
 }
 
 
