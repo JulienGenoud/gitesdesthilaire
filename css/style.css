@@ -1034,7 +1034,8 @@ a.btn-mod:focus{
 .home-text{
 	display: table-cell;
 	height: 100%;
-	vertical-align: middle;
+  vertical-align: middle;
+  margin-bottom: 200px;
 }
 
 /* Scroll down icon */
@@ -1266,6 +1267,8 @@ a.btn-mod:focus{
     letter-spacing: 0.2em;
     line-height: 1.2;
     opacity: .75;
+    margin-bottom: 250px;
+
 }
 .hs-line-8.no-transp{
     opacity: 1;
