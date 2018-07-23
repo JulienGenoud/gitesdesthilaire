@@ -1610,7 +1610,7 @@ a.logo:hover{
 	border-left: none;
 	border-right: none;
     letter-spacing: 10;
-	color: #7c7c7c !important;
+	color: #393939 !important;
 	cursor: pointer;
 }
 
@@ -1625,7 +1625,7 @@ a.logo:hover{
 }
 
 .tilleul{
-  background: rgba(154,190,178, .8);
+  background: rgba(222,239,234, .8);
 }
 
 
