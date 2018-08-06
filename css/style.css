@@ -4978,7 +4978,7 @@ div .owl-carousel, .activite{
 }
 
 .activite .owl-prev:hover:before, .owl-next:hover:before {
-  background: blue;
+  background: white;
 }
 
 .activite .owl-pagination{
