@@ -138,7 +138,7 @@ Primary use:    MultiPurpose Template
 	}
 
     .page-section{
-        padding: 120px 0;
+        padding: 20px 0;
         
     }
     .page-section, .home-section, .small-section{
@@ -256,7 +256,7 @@ Primary use:    MultiPurpose Template
     }
 	
 	.page-section {
-        padding: 80px 0;
+        padding: 0px 0;
     }	
     .small-section {
         padding: 50px 0;
@@ -612,6 +612,12 @@ Primary use:    MultiPurpose Template
         font-size: 24px;
     }
    
+
+    .h3{
+    font-size: 14px;
+    margin-bottom: 0px !important;
+    }
+
    .scroll-down {
         bottom: 10px;
 		height: 34px;
@@ -632,7 +638,7 @@ Primary use:    MultiPurpose Template
 	
 	
 	.page-section {
-        padding: 60px 0;
+        padding: 0px 0;
     }
     .small-section {
         padding: 30px 0;
@@ -657,7 +663,7 @@ Primary use:    MultiPurpose Template
     .section-title,
 	.split-section-headings .section-title,
 	.wide-heading {
-        font-size: 24px;
+        font-size: 18px;
 		letter-spacing: 2px;
     }	
     .section-heading,

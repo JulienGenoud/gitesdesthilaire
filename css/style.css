@@ -245,7 +245,7 @@ img:not([draggable]), embed, object, video{
 }
 
 .loader{
-  background : url('../images/gites-logo.gif') 50% 50% no-repeat;
+  background : url('../images/gites-logo-2.gif') 50% 50% no-repeat;
 
   width: 100px;
   height: 100px;
@@ -388,10 +388,17 @@ h1{
 h2{
 	font-size: 28px;
 }
+
 h3{
-	font-size: 28px;
-	margin-top: 0px !important;
+	font-size: 15px;
+	margin-bottom: 0px !important;
 }
+
+h4{
+	font-size: 12px;
+	margin-bottom: 20px !important;
+}
+
 h6{
     font-weight: 700;
 }
@@ -613,7 +620,7 @@ a.btn-mod{
 	box-sizing: border-box;
 	padding: 4px 13px;
   	color: #fff;
-  	background: rgba(34,34,34, .9);
+  	background: #6faca7;
 	border: 2px solid transparent;
 	font-size: 11px;
 	font-weight: 400;
@@ -681,15 +688,15 @@ a.btn-mod:focus{
 }
 
 .btn-mod.btn-border{
-  	color: #151515;
-	border: 2px solid #151515;
+  	color: #fff;
+	border: 1px solid #fff;
   	background: transparent;
 }
 .btn-mod.btn-border:hover,
 .btn-mod.btn-border:focus{
-  	color: #fff;
+  	color: #000;
 	border-color: transparent;
-  	background: #000;
+  	background: #fff;
 }
 
 .btn-mod.btn-border-c{
@@ -2382,7 +2389,7 @@ a.logo:hover{
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
     
-	padding: 70px 0;
+	padding: 0px 0;
 }
 .gallery1{
   padding-top: 0px;
@@ -4200,7 +4207,7 @@ a.logo:hover{
     left: 0; 
 }
 .footer-social-links a:before{
-    content: "";
+
     display: inline-block;
     width: 100%;
     height: 100%;
@@ -4209,10 +4216,7 @@ a.logo:hover{
     left: 0;
     border: 1px solid #111;
     
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    border-radius: 2px;
-    
+   
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -o-transform: rotate(45deg);
@@ -4227,7 +4231,10 @@ a.logo:hover{
     
 }
 .footer-social-links a:hover{
-    color: #fff;
+
+    color: #6faca7;
+    border-radius: 15px;
+    
 }
 .footer-social-links a:hover:before{
     background: #111;
@@ -4789,14 +4796,13 @@ table.shopping-cart-table tr td{
 
 .pricing-icon{
     padding-top: 10px;
-	padding-bottom: 5px;
+	padding-bottom: 0px;
 	position: relative;
 	font-size: 32px;
 	z-index: 1;
 }
 .pricing-title{
 	position: relative;
-	margin-bottom: 20px;
 	font-size: 15px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -4822,19 +4828,20 @@ table.shopping-cart-table tr td{
 	border-top: 1px solid #f1f1f1;
 }
 .pricing-num{
+	font-family: "Oswald";
 	font-size: 40px;
 	font-weight: 300;
 	line-height: 1;
 	
 }
 .pricing-num sup{
-    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-family: "Oswald";
 	font-size: 18px;
 	font-weight: 400;
 	position: relative;
-	top: -20px;
+
 	left: -3px;
-	margin-left: -7px;
+	margin-left: 0px;
 }
 
 .pr-button{
@@ -4849,16 +4856,18 @@ table.shopping-cart-table tr td{
 }
 
 .price1{
-    color: #9ab1b0;
-    padding: 20px;
+    color: #6faca7;
+    text-align: center;
 }
+
 .price2{
-    color: #f0cfa5;
-    padding: 20px;
+    color: #f49722;
+    text-align: center;
 }
+
 .price3{
-    color: #db9082;
-    padding: 20px;
+    color: #e74a5e;
+    text-align: center;
 }
 
 /* ==============================
@@ -6449,3 +6458,40 @@ section:hover .small-item-carousel .owl-next{
 	.multi-columns-row .col-lg-2:nth-child(6n + 7) { clear: left; }
 	.multi-columns-row .col-lg-1:nth-child(12n + 13) { clear: left; }
 }
+
+
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+ 
+.col-xs-5ths {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+.col-sm-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+
+
