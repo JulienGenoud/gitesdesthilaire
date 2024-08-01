@@ -707,7 +707,7 @@ a.btn-mod:focus{
 
 .btn-mod.btn-border-c{
   	color: #e75c4b;
-	border: 2px solid #e75c4b;
+	border: 0px solid #e75c4b;
   	background: transparent;
 }
 .btn-mod.btn-border-c:hover,
