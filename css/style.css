@@ -761,19 +761,19 @@ a.btn-mod:focus{
 
 .btn-mod.btn-color{
   	color: #fff;
-  	background: #e41919;
+  	background: #0f547b;
 }
 .btn-mod.btn-color:hover,
 .btn-mod.btn-color:focus{
   	color: #fff;
-  	background: #e41919;
+  	background: #041621;
     opacity: .85;
 }
 
 .btn-mod.btn-circle{
-	-webkit-border-radius: 30px;
-	-moz-border-radius: 30px;
-	border-radius: 30px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
 }
 .btn-mod.btn-round{
 	-webkit-border-radius: 20px;
